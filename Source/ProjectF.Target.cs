@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 public class ProjectFTarget : TargetRules
 {
-	public ProjectFTarget( TargetInfo Target) : base(Target)
+	public ProjectFTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
 		ExtraModuleNames.Add("ProjectF");
 	}
 }

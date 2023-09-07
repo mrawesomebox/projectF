@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 public class ProjectFEditorTarget : TargetRules
 {
-	public ProjectFEditorTarget( TargetInfo Target) : base(Target)
+	public ProjectFEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
 		ExtraModuleNames.Add("ProjectF");
 	}
 }
